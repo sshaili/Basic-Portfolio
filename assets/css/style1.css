@@ -1,0 +1,15 @@
+header{
+    background-color: yellow;
+}
+#navigation{
+    float: right;
+}
+#name{
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+
+}
+#sizek{
+    background-color: red;
+}

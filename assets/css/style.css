@@ -1,0 +1,62 @@
+body{
+   background-image: url(../images/email-pattern.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+
+}
+.row{
+    background-color: white;
+    max-width: auto;
+    height: 80px;
+    margin: auto; 
+}
+#size{
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    
+    
+}
+#name{
+    background-color: #4aaaa5;
+    float: left;
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 190px;
+   
+}
+
+#navigation{
+    float: right;
+    margin-right: 120px;
+    padding-top: 30px;
+    
+}
+#nav{
+    color: #777777;
+}
+
+article {
+    margin-left: 190px;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 50px;
+    max-width: 960px;
+    background-color:white;
+    height: 250px; 
+    
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid #4aaaa5 5px;
+ }
+
+
