@@ -3,6 +3,9 @@ body{
    margin-top: 0px;
    margin-left: 0px;
    margin-right: 0px;
+}
+#portfoliobody{
+   overflow-y:scroll;
 
 }
 .row{
@@ -37,9 +40,17 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+a:hover{
+    background-color: #4aaaa5;
+    display: inline;
+    text-decoration: underline;
+  
+    
+}
 .nav{
     color: #777777;
 }
+
 
 article {
     margin-left: 190px;
@@ -52,8 +63,20 @@ article {
     background-color:white;
     height: 450px; 
     font-family: Arial, Helvetica, sans-serif;
-    
-  }
+}
+#portfolio{
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 960px;
+    background-color:white;
+    height: 650px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
   .footer {
     position: fixed;
     left: 0;
@@ -89,17 +112,7 @@ hr{
     color: #777777;
     margin-bottom: 5px;
 }
- #contactform{
-    margin: auto;
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    max-width: 560px;
-    background-color:white;
-    height: 450px;
-}
+
 #message{
     height: 130px;
 }
@@ -119,17 +132,20 @@ hr{
     color: #ffffff;
     margin-left: 380px;
 }
-#link{
-    float: right;
-    margin-right: 380px;
-    padding-top: 30px;
-}
+
 .image{
-    height: 120px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     float: left;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.image:hover{
+    border-radius: 50%;    
+    box-sizing: border-box;
+    border: 1px solid #4aaaa5;
 }
 .container {
     position: relative;
@@ -139,9 +155,9 @@ hr{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 80px;
+    margin-top: 160px;
     padding-bottom: 25px;
     font-size: 10px;
     text-align: center;
@@ -150,10 +166,10 @@ hr{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 80px;
-    margin-left: 170px;
+    margin-top: 160px;
+    margin-left: 210px;
     padding-bottom: 25px;
     font-size: 10px;
     text-align: center;
@@ -163,23 +179,24 @@ hr{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 80px;
-    margin-left: 340px;
+    margin-top: 160px;
+    margin-left: 420px;
     padding-bottom: 25px;
     font-size: 10px;
     text-align: center;
+
 }
 
 .text-block4{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 210px;
-    margin-left: 170px;
+    margin-top: 160px;
+    margin-left: 630px;
     padding-bottom: 25px;
     font-size: 10px;
     text-align: center;
@@ -189,9 +206,9 @@ hr{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 210px;
+    margin-top: 380px;
     margin-right: 170px;
     padding-bottom: 25px;
     font-size: 10px;
@@ -201,10 +218,10 @@ hr{
     position: absolute;
     background-color: #4aaaa5;
     color: white;
-    width: 160px;
+    width: 200px;
     height: 10px;
-    margin-top: 210px;
-    margin-left: 340px;
+    margin-top: 380px;
+    margin-left: 210px;
     padding-bottom: 25px;
     font-size: 10px;
     text-align: center;
